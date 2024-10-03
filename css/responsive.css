@@ -1,0 +1,159 @@
+@media screen and (max-width:992px) {
+    nav ul{
+display: none;
+    }
+    nav .icon{
+        display: block;
+    }
+    .show{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        width: 50%;
+        top: 94px;
+        right: 0;
+        background-color: rgba(239, 241, 241, 0.826);
+        transition: .5s linear;
+        padding: 70px 0;
+        gap: 15px;
+    }
+
+    .hero-section .hero-text h1 {
+        font-size: 40px;
+        font-weight: 900;
+    
+    }
+
+    .hero-section .heroimg img{
+        width: 100%;
+    }
+
+    .about-sec .about-img-sec img{
+        width: 100%;
+    }
+
+    .about-sec .about-me .about-text h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .review-card .gcard{
+        width: 150px;
+        height: 100px;
+    }
+    .review-card .gcard img{
+        width: 100%;
+    }
+
+    .review-card .card{
+        width: 150px;
+        height: 100px;
+    }
+
+    .review-card .gcard img{
+        width: 100%;
+    }
+    
+}
+
+/* Responsive Design @media screen and (max-width:768px) */
+
+
+@media screen and (max-width:768px){
+
+    .hero-section .hero-text h1 {
+        font-size: 30px;
+        font-weight: 900;
+    
+    }
+
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .about-sec .about-me {
+    
+        flex-direction: column;
+    }
+
+    .course-sec .course-text h1{
+        font-size: 30px;
+    }
+
+    .course .course-card .card{
+        width: 300px;
+        height: 300px;
+    }
+
+    .course .course-card .card h2 {
+        font-size: 28px;
+    }
+
+    .course .course-card .card .crd-text {
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .review-sec .review-text h1{
+        font-size: 30px;
+    }
+
+    .review-card .gcard{
+        width: 130px;
+        height: 90px;
+    }
+
+    .contact-text h1{
+        font-size: 30px;
+    }
+
+    .review-card .card{
+        width: 130px;
+        height: 90px; 
+    }
+
+    .form-section{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+}
+
+
+/* @media screen and (max-width:600px) */
+
+@media screen and (max-width:600px){
+
+
+
+.hero-section .heroimg img{
+    width: 100%;
+}
+
+.about-sec .about-img-sec img {
+    width: 100%;
+}
+
+.course .course-card .card{
+    width: 100%;
+}
+
+.review-card .gcard{
+ width: 100%;
+ height: auto;
+}
+
+.review-card .card{
+   width: 100%;
+   height: auto;
+}
+.form-section form{
+    width: 100%;
+}
+.form-section iframe{
+    width: 100%;
+}
+
+}
