@@ -606,8 +606,7 @@ nav ul li a:hover::after {
 }
 
 .form-section form{
-    /* display: block;
-    border: 2px solid #000; */
+
     background-color: #FEFAE0;
     box-shadow: 2px 4px 8px #5b5151;
     width: 45%;
